@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 # Load your API key from .env
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+
 
 st.set_page_config(page_title="📚 IDontReadPDFs")
 st.title("📄 IDontReadPDFs – Let AI Read for You!")
