@@ -1,6 +1,6 @@
 # 📚 IDontReadPDFs.AI
 
-*A lightweight retrieval-augmented system for document-grounded conversations*
+*An intelligent retrieval-augmented AI agent for context-aware, document-grounded interactions.*
 
 ---
 
