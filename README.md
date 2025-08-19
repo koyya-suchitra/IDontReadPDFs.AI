@@ -166,4 +166,5 @@ This project is released under the **MIT License**.
 * [FAISS](https://github.com/facebookresearch/faiss)
 * [Google Gemini](https://ai.google.dev/)
 * [Streamlit](https://streamlit.io/)
+✍️ Read the full story behind this project on my blog: [My Medium Blog](https://medium.com/@suchitrakoyya/from-pdf-overload-to-ai-magic-how-i-built-idontreadpdfs-ai-ef28a3d2e9ed)
 
