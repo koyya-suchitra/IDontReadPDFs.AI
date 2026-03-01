@@ -1,7 +1,6 @@
 # 📚 IDontReadPDFs.AI
-## Try it out at : https://idontreadpdfs-ai.streamlit.app/
-
 *An intelligent retrieval-augmented AI agent for context-aware, document-grounded interactions.*
+## Try it out at : https://idontreadpdfs-ai.streamlit.app/
 
 ---
 
