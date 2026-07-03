@@ -59,6 +59,20 @@ Rather than positioning it as a polished “product,” this repo documents an *
 ```
 
 ---
+## 🔁 Workflow
+
+The project follows a retrieval-augmented generation pipeline:
+
+1. **PDF Upload** → The user uploads a PDF document through the Streamlit interface.
+2. **Document Loading** → The PDF is loaded and parsed using LangChain document loaders.
+3. **Chunking** → The document is split into smaller semantic chunks for efficient retrieval.
+4. **Embedding Generation** → Each chunk is converted into vector embeddings.
+5. **Vector Storage** → The embeddings are stored in FAISS for similarity-based retrieval.
+6. **Question Input** → The user asks a question in natural language.
+7. **Relevant Context Retrieval** → The system retrieves the most relevant chunks from the vector store.
+8. **LLM Response Generation** → Gemini 1.5 Flash uses the retrieved context to generate a grounded answer.
+9. **Answer Display** → The response is shown in the Streamlit chat interface along with supporting context.
+---
 
 ## ⚙️ Setup
 
