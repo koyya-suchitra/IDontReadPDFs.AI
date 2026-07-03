@@ -165,5 +165,15 @@ This project is released under the **MIT License**.
 * [Google Gemini](https://ai.google.dev/)
 * [Streamlit](https://streamlit.io/)
  ---
+ ## 🛠️ Current Limitations
+
+While the system works well for contextual PDF-based Q&A, there are still a few limitations:
+
+- It currently focuses on single-document interaction rather than cross-document reasoning.
+- Responses depend heavily on chunk quality and retrieval relevance.
+- Complex tables, diagrams, and scanned PDFs are not handled optimally.
+- The system does not yet include conversation memory across sessions.
+- Performance may vary depending on PDF structure and content density.
+---
 ✍️ Read the full story behind this project on my blog: [My Medium Blog](https://medium.com/@suchitrakoyya/from-pdf-overload-to-ai-magic-how-i-built-idontreadpdfs-ai-ef28a3d2e9ed)
 
